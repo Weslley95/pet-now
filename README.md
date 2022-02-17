@@ -1,4 +1,6 @@
-## 🐾 Pet Now
+<h1 align="center">
+    <img alt="Setup Now" title="#NextLevelWeek" src="./resource/logo_petnow.svg" width="200px"/>
+</h1>
 
 ---
 
