@@ -3,14 +3,14 @@ import 'package:petnow/category_list.dart';
 import 'package:petnow/data.dart';
 import 'package:petnow/pet_widget.dart';
 
-class Principal extends StatefulWidget {
-  const Principal({Key? key}) : super(key: key);
+class Home extends StatefulWidget {
+  const Home({Key? key}) : super(key: key);
 
   @override
-  _PrincipalState createState() => _PrincipalState();
+  _HomeState createState() => _HomeState();
 }
 
-class _PrincipalState extends State<Principal> {
+class _HomeState extends State<Home> {
   List<Pet> pets = getPetList();
 
   @override
@@ -168,7 +168,7 @@ class _PrincipalState extends State<Principal> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "Veterinários",
+                    "Hospitais de Emergência",
                     style: TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.bold,
@@ -255,13 +255,11 @@ class _PrincipalState extends State<Principal> {
                     height: 30,
                     child: Image.asset(
                       "assets/images/" +
-                          (category == Category.HAMSTER
-                              ? "hamster"
-                              : category == Category.CAT
-                                  ? "cat"
-                                  : category == Category.BUNNY
-                                      ? "bunny"
-                                      : "dog") +
+                          (category == Category.CAT
+                              ? "cat"
+                              : category == Category.DOG
+                                  ? "dog"
+                                  : "") +
                           ".png",
                       fit: BoxFit.fitHeight,
                     ),
