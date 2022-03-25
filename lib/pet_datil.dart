@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:petnow/data.dart';
-import 'package:petnow/avatar.dart';
 
 class PetDail extends StatelessWidget {
   final Pet pet;
