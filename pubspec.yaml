@@ -64,8 +64,6 @@ flutter:
     - assets/images/emergence/
     - assets/images/cats/
     - assets/images/dogs/
-    - assets/images/hamsters/
-    - assets/images/bunnies/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
