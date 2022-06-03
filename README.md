@@ -16,4 +16,4 @@
 
 ---
 
-## 🛠 Em desenvolvimento...
+## 📱 O app pode ser encontrado na [play store](https://play.google.com/store/apps/details?id=br.com.setupnow.petnow)
